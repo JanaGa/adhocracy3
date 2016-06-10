@@ -67,6 +67,11 @@ export var s1CurrentColumnDirective = (
             });
 
             scope.shared.sorts = [{
+                key: "item_creation_date",
+                name: "TR__CREATION_DATE",
+                index: "item_creation_date",
+                reverse: true
+            }, {
                 key: "rates",
                 name: "TR__RATES",
                 index: "rates",
@@ -80,11 +85,6 @@ export var s1CurrentColumnDirective = (
                 key: "comments",
                 name: "TR__COMMENTS_TOTAL",
                 index: "comments",
-                reverse: true
-            }, {
-                key: "item_creation_date",
-                name: "TR__CREATION_DATE",
-                index: "item_creation_date",
                 reverse: true
             }];
 
@@ -122,6 +122,11 @@ export var s1NextColumnDirective = (
             });
 
             scope.shared.sorts = [{
+                key: "item_creation_date",
+                name: "TR__CREATION_DATE",
+                index: "item_creation_date",
+                reverse: true
+            }, {
                 key: "rates",
                 name: "TR__RATES",
                 index: "rates",
@@ -135,11 +140,6 @@ export var s1NextColumnDirective = (
                 key: "comments",
                 name: "TR__COMMENTS_TOTAL",
                 index: "comments",
-                reverse: true
-            }, {
-                key: "item_creation_date",
-                name: "TR__CREATION_DATE",
-                index: "item_creation_date",
                 reverse: true
             }];
 
@@ -187,6 +187,11 @@ export var s1ArchiveColumnDirective = (
             }];
 
             scope.shared.sorts = [{
+                key: "item_creation_date",
+                name: "TR__CREATION_DATE",
+                index: "item_creation_date",
+                reverse: true
+            }, {
                 key: "rates",
                 name: "TR__RATES",
                 index: "rates",
@@ -200,11 +205,6 @@ export var s1ArchiveColumnDirective = (
                 key: "comments",
                 name: "TR__COMMENTS_TOTAL",
                 index: "comments",
-                reverse: true
-            }, {
-                key: "item_creation_date",
-                name: "TR__CREATION_DATE",
-                index: "item_creation_date",
                 reverse: true
             }];
 
