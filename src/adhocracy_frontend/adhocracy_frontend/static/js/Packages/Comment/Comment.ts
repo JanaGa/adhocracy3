@@ -336,6 +336,11 @@ export var adhCommentListing = (
                 name: "TR__RATES",
                 index: "rates",
                 reverse: true
+            }, {
+                key: "controversiality",
+                name: "TR__CONTROVERSIALITY",
+                index: "controversiality",
+                reverse: true
             }];
             scope.params = {};
 
